@@ -529,12 +529,12 @@ i {
   overflow-x: clip !important;
 }
 
-.section_in{
+.section_in {
   padding: 40px 0px;
-    position: relative;
-    z-index: 1;
-    overflow-x: clip !important;
-    margin-bottom: 60px;
+  position: relative;
+  z-index: 1;
+  overflow-x: clip !important;
+  margin-bottom: 60px;
 }
 
 .section__cta {
@@ -6242,7 +6242,7 @@ i {
   border-radius: 15px;
   margin-bottom: 40px;
   overflow: hidden;
-  background-color: #2f2e1c;
+  background-color: #000;
 }
 
 .fn_cs_roadmap .step_holder .fn__svg {
