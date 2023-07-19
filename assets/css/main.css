@@ -444,7 +444,7 @@ i {
 }
 
 .bg-img {
-  background-color: #000;
+  background-color: #f4f1ba;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -651,12 +651,12 @@ i {
   transform: translate(-50%, -50%);
   width: 10px;
   height: 10px;
-  background-color: #eee98d;
+  background-color: #000;
   border-radius: 50%;
 }
 .cmn-pagination .slick-dots .slick-active button {
   background-color: transparent;
-  border: 1px solid #eee98d;
+  border: 1px solid #000;
 }
 
 .cmn-pagination-light .slick-dots button::before {
@@ -1790,11 +1790,12 @@ i {
 .banner-three .banner-three__inner {
   padding: 65px 65px;
   position: relative;
-  border: 2px solid #000;
+  border: 2px solid #f4f1ba;
 }
 .banner-three .banner-three__content p {
   font-weight: 600;
   margin-bottom: 20px;
+  color: #000;
 }
 .banner-three .banner-three__content .section__content-cta {
   display: flex;
@@ -1823,26 +1824,27 @@ i {
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
+  color: #000;
 }
 .banner-three .banner-three__content .try-this .content span {
   line-height: 1;
   font-size: 14px;
   font-weight: 500;
-  color: #ffffff;
+  color: #000;
 }
 .banner-three .h2-light {
-  color: #ffffff;
+  color: #000;
 }
 .banner-three .banner-three-pagination {
   position: absolute;
-  top: 50%;
+  top: 10%;
   right: 20px;
   transform: translateY(-50%);
 }
 .banner-three .banner-three-pagination .slick-dots {
   justify-content: center;
-  margin-top: 40px;
-  flex-direction: column;
+  margin-top: 0;
+  flex-direction: row;
 }
 
 .cmn-banner {
@@ -6214,7 +6216,7 @@ i {
 }
 
 #roadmap .fn__maintitle {
-  margin-bottom: 140px;
+  margin-bottom: 50px;
 }
 
 #roadmap {
@@ -6324,7 +6326,8 @@ i {
 }
 
 .fn_cs_roadmap .swiper-slide .title {
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 500;
-  margin: 0 0 20px;
+  margin: 0 0 5px;
+  line-height: 1em;
 }
