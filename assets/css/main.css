@@ -6280,10 +6280,8 @@ i {
 
 .fn_cs_roadmap .swiper-slide .item {
   border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 10px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
   position: relative;
-  background: #eee98d;
+  background: #f8f6d1;
 }
 
 .fn_cs_roadmap .swiper-wrapper {
@@ -6315,17 +6313,18 @@ i {
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
-  padding: 0 30px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 10px;
-  height: 40px;
-  line-height: 40px;
+  height: 25px;
+  line-height: 0;
   overflow: hidden;
+  background: #efeb98;
+  font-weight: bold;
+  font-size: 13px;
+  border-radius: 0 0 10px 0;
+  padding: 18px;
 }
 
 .fn_cs_roadmap .swiper-slide .item_in {
-  padding: 0px 30px 40px;
+  padding: 10px 30px 40px;
 }
 
 .fn_cs_roadmap .swiper-slide .date {
@@ -6337,5 +6336,5 @@ i {
   font-size: 21px;
   font-weight: 500;
   margin: 0 0 5px;
-  line-height: 1em;
+  line-height: 1.5em;
 }
